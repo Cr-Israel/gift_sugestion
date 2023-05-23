@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background: #4169E1;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.position_content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 100%; /* Adicionamos um limite de largura para evitar que o conteúdo seja cortado */
+}
+
+.position_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: static;
+}
+
+.position_image img {
+    width: 100%;
+    height: auto;
+}
